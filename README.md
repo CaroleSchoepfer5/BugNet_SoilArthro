@@ -1,5 +1,3 @@
-# BugNet_SoilArthro
-
 # BugNet Soil Arthropod Image Processing
 
 This repository contains notebooks, model files and environment specifications used for automated processing of soil mesofauna images from BugNet field experiments.
