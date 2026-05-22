@@ -17,20 +17,20 @@ Detailed instructions and workflow descriptions are provided in:
 
 ## Repository contents
 
-### BugNet_SoilArthro_FlatBug.ipynb
+### BugNet_SoilArthro_FlatBug_colab.ipynb
 
-Notebook used for applying the fine-tuned FlatBug model.
+Notebook used for applying the fine-tuned FlatBug model using resources from Google Colab.
 
 Main functions:
 
-- Load source images
+- Load source images form personal Google Drive
 - Run object detection
 - Extract individual organisms
-- Save cropped images while retaining source image information
+- Save cropped images on personal Google Drive while retaining source image information
 
 Required input:
 
-- source images
+- source images uploaded on personal Google Drive
 - FlatBug model weights
 
 Output:
@@ -48,16 +48,15 @@ Main functions:
 - train classifier from manually labelled examples
 - apply trained classifier
 - automatically sort crops into taxonomic groups
-- apply confidence thresholding
 
 Required input:
 
 - cropped images from FlatBug
-- classifier weights
+- classifier weights "classifier_best.pt"
 
 Output:
 
-- automatically sorted images
+- automatically sorted images for further manual inspection
 
 ---
 
@@ -94,7 +93,7 @@ Download model weights here:
 
 [INSERT LINK]
 
-Place the downloaded weights in your local `model` folder before running:
+Place the downloaded weights in your local `model` folder in your personal Google Drive before running:
 
 ```text
 BugNet_SoilArthro_FlatBug.ipynb
