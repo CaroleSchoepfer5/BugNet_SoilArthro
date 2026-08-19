@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: BugNet SoilArthro Image processing
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Carole
+    family-names: Schöpfer
+    email: carole.schoepfer@gmail.com
+    affiliation: WSL-Institut für Schnee- und Lawinenforschung SLF
+    orcid: 'https://orcid.org/0009-0006-7797-3099'
+repository-code: 'https://github.com/CaroleSchoepfer5/BugNet_SoilArthro'
+abstract: >-
+  This repository contains protocols, notebooks, model files
+  and environment specifications used for automated
+  processing of soil mesofauna images from BugNet field
+  experiments.
+
+
+  The workflow consists of three main steps:
+
+
+  1. producing a standardized image dataset of soil samples
+
+  2. Detection and extraction of individual organisms using
+  a fine-tuned FlatBug model
+
+  3. Classification and sorting of extracted crops into
+  broad taxonomic groups using a YOLO-based classifier
